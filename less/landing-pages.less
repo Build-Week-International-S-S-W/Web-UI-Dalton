@@ -1,0 +1,265 @@
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+    .logo {
+        .flexbox(column, center);
+        margin-bottom: 5%;
+
+        h1 {
+            font-size: 12.8rem;
+            vertical-align: middle;
+            font-family: @cursive;
+            color: @space;
+            align-self: center;
+
+            @media @phone {
+                font-size: 10rem;
+                margin-top: 10%;
+                margin-bottom: 10%;
+            }
+        }
+
+        h2 {
+            align-self: center;
+            font-size: 6rem;
+            margin-top: 2%;
+        }
+        
+    }
+
+    
+    .center{
+        .flexbox(row, center);
+        margin: 5%;
+    }
+    .button {
+        .big-btn(@blue, @apricot);
+        font-family: @slab;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    
+
+
+
+
+    .right-content {
+        .flexbox(row, space-between);
+        margin-bottom: 5%;
+        background-color: @orange;
+        padding: 2%;
+        border-radius: 10px;
+        
+
+        @media @phone {
+            .flexbox(column, space-between)
+        }
+    
+        .content-img {
+            width: 35%;
+            border-radius: 10px;
+            border: solid 4px @blue;
+            box-shadow: 10px 10px 5px @space;
+
+            @media @phone {
+                width: 90%;
+                margin: 5%;
+            }
+        }
+
+        .opening {
+            font-size: 2.8rem;
+            margin-top: 4%;
+        }
+
+        .content {
+            padding: 2%;
+            ul {
+                list-style-type: square;
+            }
+            h3 {
+                color: @green;
+            }
+            p {
+                color: white;
+            }
+            h4{
+                color: @apricot;
+            }
+
+            @media @phone {
+                margin: 5%;
+            }
+        }
+        .name {
+            font-size: 5rem;
+        }
+        .title {
+            font-size: 3.5rem;
+            margin-bottom: 5%;
+        }
+
+        .about {
+            font-size: 2.4rem;
+        }
+    }
+
+    .right-content-alt {
+        .flexbox(row, space-between);
+        margin-bottom: 5%;
+        background-color: @apricot;
+        padding: 2%;
+        border-radius: 10px;
+        
+
+        @media @phone {
+            .flexbox(column, space-between)
+        }
+    
+        .content-img {
+            width: 35%;
+            border-radius: 10px;
+            border: solid 4px @blue;
+            box-shadow: 10px 10px 5px @space;
+
+            @media @phone {
+                width: 90%;
+                margin: 5%;
+            }
+        }
+
+        .opening {
+            font-size: 2.8rem;
+            margin-top: 4%;
+        }
+
+        .content {
+            padding: 2%;
+            ul {
+                list-style-type: square;
+            }
+
+            @media @phone {
+                margin: 5%;
+            }
+        }
+        .name {
+            font-size: 5rem;
+        }
+        .title {
+            font-size: 3.5rem;
+            margin-bottom: 5%;
+        }
+
+        .about {
+            font-size: 2.4rem;
+        }
+    }
+
+    .left-content {
+        .flexbox(row-reverse, space-between);
+        margin-bottom: 5%;
+        background-color: @green;
+        padding: 2%;
+        border-radius: 10px;
+
+        @media @phone {
+            .flexbox(column, space-between)
+        }
+
+        .content-img {
+            width: 35%;
+            border-radius: 10px;
+            border: solid 4px @blue;
+            box-shadow: 10px 10px 5px black;
+
+            @media @phone {
+                width: 90%;
+                margin: 5%;
+            }
+        }
+        .content {
+            padding: 2%;
+            ul {
+                list-style-type: circle;
+            }
+            p {
+                color: white;
+            }
+            
+            @media @phone {
+                margin: 5%;
+            }
+        }
+
+        .name {
+            font-size: 5rem;
+        }
+
+        .title {
+            font-size: 3.5rem;
+        }
+
+        .about {
+            font-size: 2.4rem;
+        }
+    }
+
+    .left-content-alt {
+        .flexbox(row-reverse, space-between);
+        margin-bottom: 5%;
+        background-color: @blue;
+        padding: 2%;
+        border-radius: 10px;
+
+        @media @phone {
+            .flexbox(column, space-between)
+        }
+
+        .content-img {
+            width: 35%;
+            border-radius: 10px;
+            border: solid 4px @blue;
+            box-shadow: 10px 10px 5px black;
+
+            @media @phone {
+                width: 90%;
+                margin: 5%;
+            }
+        }
+        .content {
+            padding: 2%;
+            ul {
+                list-style-type: circle;
+            }
+            p {
+                color: white;
+            }
+            h3{
+                color: @apricot;
+            }
+            h4{
+                color: @green;
+            }
+            
+            @media @phone {
+                margin: 5%;
+            }
+        }
+
+        .name {
+            font-size: 5rem;
+        }
+
+        .title {
+            font-size: 3.5rem;
+        }
+
+        .about {
+            font-size: 2.4rem;
+        }
+    }
+

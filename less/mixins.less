@@ -1,0 +1,59 @@
+.flexbox(@fd, @jc) {
+    display: flex;
+    flex-direction: @fd;
+    justify-content: @jc;
+}
+
+.width() {
+    width: 100%;
+}
+
+.custom-btn(@bg, @c) {
+    background-color: @bg;
+    color: @c;
+    padding: 7px;
+    font-size: 2rem;
+    //width: 90px;
+    text-align: center;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: @c;
+        color: @bg;
+    }
+}
+
+.big-btn(@bg, @c) {
+    background-color: @bg;
+    color: @c;
+    padding: 15px;
+    font-size: 4rem;
+    //width: 90px;
+    text-align: center;
+    border-radius: 5px;
+    animation: pulse 1.5s infinite;
+
+    @keyframes pulse {
+        0% {
+            background: @bg;
+            color: @c;
+        }
+    
+        50% {
+            background: @c;
+            color: @bg;
+        }
+    
+        100% {
+            background: @bg;
+            color: @c;
+        }
+    }
+
+    &:hover {
+        background-color: @c;
+        color: @bg;
+    }
+
+    
+}
